@@ -5,7 +5,7 @@ from django.db.utils import OperationalError
 
 
 class Command(BaseCommand):
-    help = "Wait for DB"
+    help = "Wait for DB"  # noqa: VNE003
 
     def handle(self, *args, **options):
         self.stdout.write("Wait for DB...")
