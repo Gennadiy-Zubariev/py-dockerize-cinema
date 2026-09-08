@@ -8,3 +8,6 @@ djangorestframework
 djangorestframework-simplejwt
 drf-spectacular
 Pillow
+python-dotenv
+psycopg
+psycopg-binary
